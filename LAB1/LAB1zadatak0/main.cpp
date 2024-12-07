@@ -38,4 +38,7 @@ int main()
 	skup2->urediNerastuce();
 	cout << "Prikaz elemenata skupa nakon uredjivanja u nerastucem redosledu: " << endl;
 	skup2->prikazElemenataSkupa();
+
+	delete skup2;
+	return 0;
 }

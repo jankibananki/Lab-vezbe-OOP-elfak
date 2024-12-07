@@ -27,5 +27,8 @@ int main()
 	cout << "Prikaz temena nakon izbacivanja: " << endl;
 	p2->prikaziTemena();
 	p2->nadjiDveNajudaljenijeTacke();
+
+	delete p2;
 	
+	return 0;
 }

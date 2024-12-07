@@ -20,5 +20,7 @@ int main()
 	Student2->azurirajImeStudenta();
 	Student2->prikazStudenta();
 
-
+	delete Student2;
+	
+	return 0;
 }
