@@ -26,6 +26,10 @@ public:
 
 	~Image()
 	{
+		for(int i=0; i<dimenzijaMatrice; i++)
+			{
+				delete[] matrica[i];
+			}
 		delete[] matrica;
 		delete[] lokacija;
 	}
